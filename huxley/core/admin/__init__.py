@@ -15,7 +15,13 @@ from .delegate import DelegateAdmin
 from .schools import SchoolAdmin
 from .registration import RegistrationAdmin
 from .position_paper import PositionPaperAdmin
-from .secretariat_member import SecretariatMemberAdmin
+'''
+Add an import for your new models
+'''
+
+'''Your code here'''
+'''Your code here'''
+>>>>>>> 60e3ad96396eb5518a40a19bea73041f477d4563
 
 admin.site.register(Conference)
 admin.site.register(Country, CountryAdmin)
@@ -28,4 +34,10 @@ admin.site.register(Delegate, DelegateAdmin)
 admin.site.register(Registration, RegistrationAdmin)
 admin.site.register(Rubric)
 admin.site.register(PositionPaper, PositionPaperAdmin)
-admin.site.register(SecretariatMember, SecretariatMemberAdmin)
+'''
+Register your models with the admin site.
+'''
+
+'''Your code here'''
+'''Your code here'''
+>>>>>>> 60e3ad96396eb5518a40a19bea73041f477d4563
